@@ -15,10 +15,6 @@ You should select **Injected Web3** as an Environent inside the RemixIde.<br>
 Then Compile and Deploy your smart contract.<br>
 
 Copy the **Address** of deployed contract.<br> 
-And replace the address value in **[src/config.js](https://github.com/nitinskumavat/blockchain-certs/blob/master/src/config.js)** with your contract address.<br>
-
-(We have to do above steps so that you will be owner of the smart contract and now you can add colleges using add **addCollege** function in RemixIde after deploying the contract).<br>
-
 
 In the project directory, you can run:
 
