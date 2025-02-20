@@ -1,0 +1,67 @@
+.cert {
+  height: 120vh;
+  background: url("cert.png") no-repeat;
+  background-size: cover;
+  margin-left: 150px;
+}
+
+.pc {
+  width: 200vh;
+ 
+  background-size: cover;
+}
+#fname {
+  font-size: 55px;
+  padding-top: 315px;
+  padding-left: 20px;
+}
+
+#course {
+  font-size: 23px;
+  margin-top: 3px;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+#txh {
+  margin-top: 250px;
+  margin-left: -300px;
+}
+
+
+.btn {
+  margin-top: 10px;
+}
+/* Position the certificate container */
+#certificate-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Bottom-left positioning for the hash and QR code */
+#certificate-hash{
+position: absolute;
+bottom: 20px; /* Adjust distance from the bottom */
+left: 4S00px; 
+
+ /* Adjust distance from the left */
+}
+#qr-code {
+  position: absolute;
+  bottom: 20px; /* Adjust distance from the bottom */
+  left: 200px; 
+   /* Adjust distance from the left */
+}
+
+/* Optional: Style for the certificate hash text */
+#certificate-hash {
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+#qr-code {
+  margin-top: 5px;
+}
+

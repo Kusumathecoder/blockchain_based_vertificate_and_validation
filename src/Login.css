@@ -1,0 +1,153 @@
+/* Login.css */
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9; /* Light background */
+  }
+  
+  .login-form-container {
+    background-color: rgb(125, 205, 150); /* Custom background color */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .input {
+    padding-left: 30px; /* Adjusted to provide space for the icon */
+    font-size: 16px;
+    color: #333;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  .alert {
+    margin-bottom: 20px;
+  }
+  
+  .remember-forget {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .remember-forget label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .remember-forget a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .remember-forget a:hover {
+    text-decoration: underline;
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .register-link p {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .register-link a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 480px) {
+    .login-form-container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .form-control {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+.input-container {
+ 
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-container i {
+    position: absolute;
+    left: -30px; /* Move the icon outside the input box */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #333;
+  /* Add space between the icon and the input */
+}
+
+.input {
+    font-size: 16px;
+  color: #333;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding-left: 30px; /* Space for the text input, not for the icon */
+}
