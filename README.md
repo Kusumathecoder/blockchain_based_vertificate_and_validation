@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### `Steps`
 
 Install the [Metamask extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) in your chrome browser.<br>
-After logging in select **Ropsten Test Network** and don't forget to add some test Faucet by clicking on **Deposit**
+After logging in select **Seploia Test net Eth** and don't forget to add some test Faucet by clicking on **Deposit**
 
 
 Copy the text from **[smart_contract.txt](https://github.com/nitinskumavat/blockchain-certs/blob/master/smart_contract.txt)**
